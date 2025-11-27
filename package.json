@@ -4,7 +4,8 @@
   "description": "Pear Deck Learning static website",
   "scripts": {
     "build": "mkdir -p dist && cp *.html dist/",
-    "start": "echo 'Static site ready'"
+    "dev": "http-server . -p 8080 -c-1",
+    "start": "http-server . -p 8080 -c-1"
   },
   "keywords": ["static", "html", "pear-deck"],
   "author": "",
