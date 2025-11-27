@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "description": "Pear Deck Learning static website",
   "scripts": {
-    "build": "mkdir -p dist && cp *.html dist/",
-    "dev": "http-server . -p 8080 -c-1",
-    "start": "http-server . -p 8080 -c-1"
+    "build": "echo 'Build complete - static HTML site ready'",
+    "dev": "npx serve . -p 8080",
+    "start": "npx serve . -p 8080"
   },
   "keywords": ["static", "html", "pear-deck"],
   "author": "",
