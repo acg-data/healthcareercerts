@@ -1,0 +1,12 @@
+{
+  "name": "pear-deck-learning-website",
+  "version": "1.0.0",
+  "description": "Pear Deck Learning static website",
+  "scripts": {
+    "build": "echo 'No build needed - static HTML site'",
+    "start": "echo 'Static site ready'"
+  },
+  "keywords": ["static", "html", "pear-deck"],
+  "author": "",
+  "license": "ISC"
+}
